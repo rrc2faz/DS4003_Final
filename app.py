@@ -22,6 +22,7 @@ df_Directors['Release Year'] = df_Directors['Release Year'].astype(int)
 
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 app = Dash(__name__, external_stylesheets=[dbc.themes.VAPOR, dbc_css]) # initialize the app
+server = app.server
 #app = dash.Dash(external_stylesheets=[dbc.themes.CYBORG])
 
 # Define layout and elements
