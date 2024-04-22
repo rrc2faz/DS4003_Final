@@ -308,6 +308,8 @@ def update_bar_graph(second_selected_director):
 
 
     fig4.update_layout(
+        xaxis_title='Film Title',
+        yaxis_title='Dollars in Millions',
         paper_bgcolor = 'rgba(37,13,73,1)',
         plot_bgcolor = 'rgba(37,13,73,1)',
         xaxis_gridcolor = 'rgba(37,13,73,1)',
