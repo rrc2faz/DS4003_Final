@@ -37,7 +37,7 @@ app.layout = dbc.Container([
             '''# Cinemaniac ''', 
         ),
         dcc.Markdown(
-            '''##### Welcome to Cinemaniac! Use the interactive graph below to dive into our database and uncover trends, statistics, and insights into 10 top directors in the film industry. Whether you're a movie buff, industry professional, or simply curious about cinema, Cinemaniac offers a dynamic app to enrich your movie experience. ''', 
+            '''##### Welcome to Cinemaniac! Use the interactive graphs below to dive into our database and uncover trends, statistics, and insights into 10 top directors in the film industry. Whether you're a movie buff, industry professional, or simply curious about cinema, Cinemaniac offers a dynamic app to enrich your movie experience. ''', 
             style = {'color': 'rgba(226,217,243,255)'},
         ),
     ], className = 'text-center' ),
