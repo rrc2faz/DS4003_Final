@@ -251,10 +251,9 @@ def update_graph(selected_director, year_range):
     heat = go.Heatmap(
         z=corr_matrix.values,
         x=corr_matrix.columns,
-        y=corr_matrix.columns,
+        y=corr_matrix.index,
         colorscale='agsunset',
-        zmin=-1,
-        zmax=1
+        zmin=0,
     )
 
     layout = go.Layout(
