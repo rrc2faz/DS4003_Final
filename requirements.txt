@@ -4,3 +4,4 @@ plotly
 seaborn
 matplotlib.pyplot
 dash_bootstrap_components
+gunicorn
